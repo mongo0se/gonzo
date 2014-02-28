@@ -1,26 +1,26 @@
 GONZO Script v1.0
 ======================
-Last Update 2012-12-21
-
-INSTALLATION
-
-Just extract gonzo.zip to your WWW directory.
 
 CONFIGURATION
 
-Edit "CONFIG.php". Your MySQL details are required, so the script can
+Edit "connect.php". Your MySQL details are required, so the script can
 setup its database and tables it is going to work from.
 
-"gonzo.css" holds all the formatting and styling information.
+Edit "gonzo.css" for styling.
 
-HEADER IMGS
+For simpler styling, drop any JPEG, GIF and PNG into the "header_imgs"
+directory. These are cycled through at random.
 
-Any JPEG, GIF and PNG images can be dropped into the "header_imgs"
-directory.
+INSTALLATION
+
+Extract files to WWW directory.
+
+Configure MySQL by running "install.php".
 
 
 
-Any Queries:
 
-Clint
-clint.veasey@gmail.com
+
+
+
+END.
