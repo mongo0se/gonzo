@@ -1,0 +1,226 @@
+/* -------- DEFAULT FORMATTING -------- */
+
+table
+{
+    border-style: none;
+    padding: 5px;
+}
+
+#container
+{
+	width: 640px;
+	
+	padding: 10px;
+	margin: 10px auto;
+	
+	font-family: Arial;
+	font-size: 16px;
+}
+
+
+#container a:link    {text-decoration: none; color: black;}
+#container a:visited {text-decoration: none; color: black;}
+#container a:hover   {
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px 0 black,0 1px black,
+      1px 0 black, 0 -1px black;
+}
+
+/* -------- HEADER STYLE -------- */
+    
+#title
+{
+	font-size: 35;
+	letter-spacing:15px;
+	text-align: center;
+}
+
+#userbar
+{
+	padding: 10px;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	color: white;
+	text-align:right;
+
+	background-color: darkgrey;
+	background-image:url('header_imgs/get.rand.img.php');
+	background-position:center; 
+
+	border-radius: 15px;	
+	border-style: solid;
+	border-color: black;
+}
+#userbar a:link    {
+	text-decoration: none;
+	color: white;
+
+    background-color:rgba(0,0,0,0.75);
+	background-position:center center;
+
+	border-radius: 5px;
+
+	padding-right: 3px;
+	padding-left: 3px;
+
+	margin-right: 3px;
+	margin-left: 3px;
+}
+#userbar a:visited {text-decoration: none; color: white;}
+#userbar a:hover   {text-decoration: none; color: black; background-color:rgba(255,255,255,0.75);}
+
+/* -------- about bar ------- */
+
+#aboutbar
+{
+	padding-left: 3px;
+	margin-top: 5px;
+	color: white;
+	
+	background-color: darkgrey;
+	border-radius: 15px;	
+
+}
+#aboutbar a:link    {
+	text-decoration: none;
+	color: white;
+
+    background-color:rgba(0,0,0,0.75);
+	background-position:center center;
+
+	border-radius: 5px;
+
+	padding-right: 3px;
+	padding-left: 3px;
+
+	margin-right: 3px;
+	margin-left: 3px;
+}
+#aboutbar a:visited {text-decoration: none; color: white;}
+#aboutbar a:hover   {text-decoration: none; color: black; background-color:rgba(255,255,255,0.75);}
+
+
+/* -------- POST CONTAINER -------- */
+
+#post
+{
+	border-style:solid;
+	border-color:lightgrey;
+	border-width:1px;
+	border-radius: 15px;
+	
+	background-color:rgba(255,255,255,0.75);
+
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+#posttitle
+{
+	text-decoration: bold;
+	color: red;
+}
+
+/* -------- POST - COMMENT CONTAINER -------- */
+
+#comment
+{
+	background-color: lightgrey;
+	font-size: 10;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+#comment b
+{
+	text-align:right;
+	font-size: 14px;
+}
+#comment p
+{
+	font-size: 14px;
+	margin-left: 10px;
+        color: black;
+}
+#commentcount
+{
+	font-size: 10px;
+	color: grey;
+}
+
+/* ------- USER INDEX BUTTON -------- */
+
+/* Definition of USER Profile links, on the INDEX page
+ */
+
+.ubutton {
+
+    color: black;
+	
+	border-radius: .5em;
+	
+	text-align: center;
+	/* font: 14px/100% Arial, Helvetica, sans-serif; */
+	padding: .2em .2em .2em;
+	margin: .3em;
+	
+	#border-style: solid;
+	#border-width: 0.1em; 
+
+	text-shadow: white 0em 0em 0.2em, white 0em 0em 0.2em, 
+	             white 0em 0em 0.2em;
+}
+.ubutton:link {
+	text-decoration: none;
+}
+.ubutton:hover {
+    color: white;
+    border-color: black;
+    text-decoration: bold;
+    
+	text-shadow: -1px 0 black,0 1px black,
+      1px 0 black, 0 -1px black;
+}
+
+/* -------- DEFAULT BUTTON --------*/
+
+.button {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	
+	padding: .5em 2em .55em;
+	margin: .5em;
+	
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+    background-color: white;
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+/* -------- IMAGE FORMATTING -------*/
+
+#thumbnail {
+	border-radius: .5em;
+	text-align: center;
+	
+}
+
+#imgheader {
+	border-radius: .5em;
+	text-align: center;
+}
